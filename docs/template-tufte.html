@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Template - Tufte style</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Eli Holmes NOAA Fisheries, NWFSC Seattle, WA 2022-01-25" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="slides-style.css" type="text/css" />
+    <link rel="stylesheet" href="tufte.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Template - Tufte style
+## Tufte fonts and line spacings
+### Eli Holmes<br>NOAA Fisheries, NWFSC<br>Seattle, WA<br>2022-01-25
+
+---
+
+layout: true
+
+.footnote[U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service]
+
+
+
+
+
+
+---
+
+# Notes
+
+The template and css makes a presentation that is vaguely like a Tufte handout in that it has Tufte font and you can have side notes.
+
+* I have tweaked the title slide css in `slides-style.css` and needed to remove `date:` from the yaml.
+* `slides-style.css` has a number of extra customizations such as square for the bullets, some colored boxes, and a wide left column class.
+* I couldn't get `self_contained: true` to work for this one so you cannot make a self-contained html file.
+
+---
+
+## Tufte style
+
+### Changes
+
+.pull-left-wide[
+1. The Tufte style is best known for sidenotes `\(^1\)` but also has a number of other features.  
+  - Tufte font
+  - Specific size ratios for text to headers
+  - Different line spacing
+1. The Tufte style is specified in the `tufte.css`
+]
+.pull-right-narrow[
+.hand-blue[
+You can add sidenotes. Here I have wrapped the text in `.hand-blue` to make it smaller and blue.
+
+`\(^1\)` In order to add a sidenote with number, you'll have to do that manually.
+]
+]
+
+---
+
+## You can put anything in the side margin
+
+
+.pull-left-wide[
+The side margin is not limited to text.
+
+- Figures
+- References
+- Images
+
+Everything will get scaled to fit.
+]
+.pull-right-narrow[
+.hand-blue[
+
+```r
+plot(1:10)
+```
+
+![](template-tufte_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+
+![](static/slideswooshver.png)
+]
+]
+
+---
+
+# Footnotes
+
+Because the NMFS footnote is already occupying the footnote space, you need to add some linefeeds to move the footnote upward. 
+
+
+
+- some content
+- a [link](http://www.google.com)
+
+
+
+```r
+r &lt;- 2 + 2
+```
+
+.footnote[It is quite finicky. Add a linefeed and it breaks.&lt;br&gt;&lt;br&gt;]
+
+
+
+---
+
+# `slides-style.css` has boxes
+
+.bluebox[## Blue box
+- The ## header will appear at the top in grey
+- Or leave it off and add different text or header
+]
+
+.orangebox[## Orange box
+&lt;img src="template-tufte_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
+]
+
+.yellowbox[## Yellow box
+A note.
+]
+
+---
+
+# Boxes and side notes
+
+.pull-left-wide[
+.orangebox[## Orange box
+&lt;img src="template-tufte_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /&gt;
+]
+]
+
+.pull-right-narrow[
+.hand-blue[
+You can add sidenotes. Here I have wrapped the text in `.hand-blue` to make it smaller and blue.
+]
+
+.small[`.small` also works but the text is not itallic or blue. Note you need a linefeed in the sidenote code.
+]
+
+.small[If you leave off the line-feed, then it will use a span element and won't pick up the right line-height spacing.]]
+
+
+---
+
+class: middle
+
+# A slide with just a title
+
+---
+
+## Two column format
+
+.pull-left[
+- **ggplot2** is tidyverse's data visualization package
+- The `gg` in "ggplot2" stands for Grammar of Graphics
+- It is inspired by the book **Grammar of Graphics** by Leland Wilkinson
+]
+.pull-right[
+- **ggplot2** is tidyverse's data visualization package
+- The `gg` in "ggplot2" stands for Grammar of Graphics
+- It is inspired by the book **Grammar of Graphics** by Leland Wilkinson
+]
+
+---
+
+## Three column format
+
+.three-column[
+Column 1
+
+You can have code.
+
+
+```r
+lm(mpg ~ hp, data=mtcars)
+```
+
+```
+## 
+## Call:
+## lm(formula = mpg ~ hp, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)           hp  
+##    30.09886     -0.06823
+```
+]
+
+.three-column[
+Column 2
+
+You can have images and embed video.
+
+![](static/slideswooshver.png)
+
+&lt;iframe width="200" height="130" src="https://www.youtube.com/embed/BCMjVc9ncFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+.three-column[
+Column 3
+
+&amp;#127758; January 25, 2022 
+
+&amp;#127767; 09:00 - 17:00  
+
+&amp;#127881;    [rverse](http://rverse-tutorials.github.io)
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "4:3",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc( (%current% - 1) / (%total% - 1) * 100%);\">\n  </div>\n</div>`"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
