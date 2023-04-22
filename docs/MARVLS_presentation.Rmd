@@ -26,16 +26,14 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-## Am I qualified to give this presentation?
+## The myths I tell myself:
 
-I would wager that this feeling is shared among most of us.   
-The myths I tell myself:
 
 * I am not a good enough coder
 
-* I don't know github well enough
-
 * There are errors in my analysis that will be discovered
+
+* I don't know github well enough
 
 * There are many NOAA policies and forms prevent me from joining in
 
@@ -43,24 +41,35 @@ The myths I tell myself:
 
 ## Open Science State of Mind
 
-* (Openscapes Mindset) [https://docs.google.com/presentation/d/1giEW0EIYVnxneGpOBSJnEqg-1CVBUGrbH8Z5gawdeBc/edit#slide=id.p]
+* (Openscapes Slides) [https://docs.google.com/presentation/d/1giEW0EIYVnxneGpOBSJnEqg-1CVBUGrbH8Z5gawdeBc/edit#slide=id.p]
 
+* Reframe your work as a collaborative effort not a individual burden
+ - You're not alone, it's not too late            
+* Redefine collaborators & community – Future You, Future Us            
+ - New perspectives, tools, methods, ideas, colleagues, allies            
+* Reimagine challenges – expect there is a better way           
+ - Reuse not reinvent: reduce lonely struggles & cognitive load           
+* Open as a daily practice - efficient, collaborative, inclusive, kind            
+ - Share imperfect work, have empathy, learn & teach together          
+ - Requires trust and time: slow down to speed up            
 
   
 ---
 
 
-## Tools & Tricks That Make it Possible
+## Tools & Learning Groups Make it Possible
 
 
-
+![feedback loop](tp.png)
+Openscapes image
 
   
 ---
-## Resources Available 
+## Tools & Resources Available 
 
 * [Openscapes](https://www.openscapes.org/)       
--[Cohorts - science centers and group shared learning](https://drive.google.com/drive/folders/10MykRskNoP4E0YCwup8rzIeZVm2gA3fO)       -Julia Lowndes (julia@openscapes.org)
+-[Cohorts - science centers and group shared learning](https://drive.google.com/drive/folders/10MykRskNoP4E0YCwup8rzIeZVm2gA3fO)               
+ -Julia Lowndes (julia@openscapes.org)
 
 * [NMFS R user group](https://nmfs-opensci.github.io/NMFS-R-UG/)        
 -For information on upcoming meetings and resources
@@ -73,11 +82,24 @@ The myths I tell myself:
 -Xaringan presentation (template used for this presentation)        
 
 * [NOAA Fisheries Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/)        
--Kathryn Doering
+-Kathryn Doering (kathryn.doering@noaa.gov )
+
+---
+## MARVLS Community
+
+* Hold meetings and workshops
+
+* standardize methodology
+
+* share accomplishments and challenges
+
+* provide mentorship
+
+* increase collaboration among scientists
 
 ---
 
-## Examples - Repeatable Reports
+## Openscience Products: Repeatable Reports
 .left-column[
 * [R Markdown Biosampling Inventory Report](https://repository.library.noaa.gov/view/noaa/45018)       
 -Three Regions        
@@ -92,44 +114,26 @@ knitr::include_graphics("temp.png")
 ```
 ]
 
----
-
-## Getting Started with Quarto and NOAA templates
-
 
 ---
-## Examples -Supplimentary Files for Publications
+## Openscience Products: Supplimentary Files for Publications
 
 * [Schemmel & Dahl 2023](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/Variola_louti_Schemmel_2023)
 
-![Variola louti](Valou_Justine,J-L.png)
-
-* McBride example
-
+```{r, eval=TRUE, echo=FALSE, out.width=550, out.height=400}
+knitr::include_graphics("Variola.png")
+```
 
 
 ---
 
 
-## Examples MARVLS Website
+## Openscience Products: MARVLS Website
 
-* (Simple website template)[] 
-* New quarto template available
+* [Simple website template](https://github.com/nmfs-opensci/NOAA-distill-website)        
+![distill](distill.png)
+* [New quarto template available](https://github.com/nmfs-opensci/NOAA-quarto-simple)
 
----
-
-## MARVLS Website Purpose
-Support MARVLS to:
-
-* Hold meetings and workshops
-
-* standardize methodology
-
-* share accomplishments and challenges
-
-* provide mentorship
-
-* increase collaboration among scientists
 
 ---
 
@@ -151,7 +155,8 @@ Share code and analysis, recent MARVLS papers,fish developmental sequences, hist
 ---
 
 ## How to Contribute 1
-
+ 
+MARVLS repository membership!
 
 .left-column[
 
@@ -230,6 +235,19 @@ Share code and analysis, recent MARVLS papers,fish developmental sequences, hist
 
 ]
 ]
+
+---
+
+## Discussion
+
+* Is there an openscience standard or best practices for life history and reproductive biology?
+
+* What changes are you seeing in our discipline?
+
+* How do we (MARVLS) share and work together currently?
+
+* How can we improve sharing and learning as a group?
+
 
 
 
