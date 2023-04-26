@@ -135,19 +135,6 @@ knitr::include_graphics("githubstart.png")
 -Kathryn Doering (kathryn.doering@noaa.gov )
 
 ---
-## MARVLS Community
-
-* Hold meetings and workshops
-
-* standardize methodology
-
-* share accomplishments and challenges
-
-* provide mentorship
-
-* increase collaboration among scientists
-
----
 
 ## Openscience Products: Repeatable Reports
 .left-column[
@@ -190,12 +177,25 @@ knitr::include_graphics("wolffish.png")
 
 
 ---
-## Openscience Products: MARVLS Website
+## Openscience Products: Websites
 
 * [Simple website template](https://github.com/nmfs-opensci/NOAA-distill-website)        
 ![distill](distill.png)
 * [New quarto template available](https://github.com/nmfs-opensci/NOAA-quarto-simple)
 
+---
+
+## MARVLS Community
+
+* Hold meetings and workshops
+
+* standardize methodology
+
+* share accomplishments and challenges
+
+* provide mentorship
+
+* increase collaboration among scientists
 
 ---
 
@@ -205,7 +205,7 @@ knitr::include_graphics("wolffish.png")
 Organize quarterly workshops and share MARVLS content
 
 * [MARVLS Learning Center]()
-Share code and analysis, recent MARVLS papers,fish developmental sequences, histology interpretation, stains, etc
+Share code and analysis, recent MARVLS papers, fish developmental sequences, histology interpretation, stains, etc
 
 * NOAA policy approved - policies enforced differently at each science center
 
@@ -300,7 +300,7 @@ MARVLS repository membership!
 
 ---
 
-## Discussion
+## Discussion Prompts
 
 * Is there an openscience standard or best practices for life history and reproductive biology?
 
@@ -309,6 +309,9 @@ MARVLS repository membership!
 * How do we (MARVLS) share and work together currently?
 
 * How can we improve sharing and learning as a group?
+
+* What are your barriers and is there something as a group we can do?
+
 
 
 
