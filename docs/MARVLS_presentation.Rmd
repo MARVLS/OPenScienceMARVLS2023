@@ -26,16 +26,44 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-## The myths I tell myself:
+## What & Why
 
+--
 
+What: 
+Open and available science.
+
+--
+
+Why:
+
+* Repeatable - future self and others
+
+--
+
+* Efficient - don't reinvent the wheel 
+
+--
+
+* Collaborative  - multiple people can work on the same documents and project
+
+--
+
+* Version control - can eliminate "doc_final_final.doc"
+
+---
+
+## Barriers to Entry
+
+The myths I tell myself:
 * I am not a good enough coder
 
 * There are errors in my analysis that will be discovered
 
-* I don't know github well enough
+* I don't know the programs/github well enough
 
-* There are many NOAA policies and forms prevent me from joining in
+* NOAA policies prevent me from joining in -> actuality NOAA Open Science mandates
+
 
 ---
 
@@ -43,16 +71,25 @@ options(htmltools.dir.version = FALSE)
 
 * (Openscapes Slides) [https://docs.google.com/presentation/d/1giEW0EIYVnxneGpOBSJnEqg-1CVBUGrbH8Z5gawdeBc/edit#slide=id.p]
 
-* Reframe your work as a collaborative effort not a individual burden
- - You're not alone, it's not too late            
+--
+
+* Reframe your work as a collaborative effort not a individual burden 
+
+--
+
 * Redefine collaborators & community – Future You, Future Us            
- - New perspectives, tools, methods, ideas, colleagues, allies            
+ - New perspectives, tools, methods, ideas, colleagues, allies
+ 
+--
+
 * Reimagine challenges – expect there is a better way           
- - Reuse not reinvent: reduce lonely struggles & cognitive load           
+ - Reuse not reinvent: reduce lonely struggles & cognitive load
+ 
+--
+
 * Open as a daily practice - efficient, collaborative, inclusive, kind            
  - Share imperfect work, have empathy, learn & teach together          
- - Requires trust and time: slow down to speed up            
-
+ - Requires trust and time: slow down to speed up
   
 ---
 
@@ -64,6 +101,19 @@ options(htmltools.dir.version = FALSE)
 Openscapes image
 
   
+---
+## Where to Begin
+  
+  * [NMFS Openscapes GitHub org](https://github.com/nmfs-openscapes/.github/wiki) 
+   - training resources
+   - NOAA policies and instructions for setting up NOAA github account
+   - links to NOAA open science mandates
+   
+```{r, eval=TRUE, echo=FALSE, out.width= "70%"}
+knitr::include_graphics("githubstart.png")
+```   
+   
+   
 ---
 ## Tools & Resources Available 
 
@@ -109,7 +159,9 @@ Openscapes image
 ]
 
 .right-column[
-```{r, eval=TRUE, echo=FALSE, out.width=400, out.height=400}
+
+
+```{r, eval=TRUE, echo=FALSE, out.width= "80%"}
 knitr::include_graphics("temp.png")
 ```
 ]
@@ -118,7 +170,7 @@ knitr::include_graphics("temp.png")
 ---
 ## Openscience Products: Supplimentary Files for Publications
 
-* [Schemmel & Dahl 2023](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/Variola_louti_Schemmel_2023)
+* Analysis [Schemmel & Dahl 2023](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/Variola_louti_Schemmel_2023)
 
 ```{r, eval=TRUE, echo=FALSE, out.width=550, out.height=400}
 knitr::include_graphics("Variola.png")
@@ -126,8 +178,18 @@ knitr::include_graphics("Variola.png")
 
 
 ---
+## Openscience Products: Supplimentary Files for Publications
+
+* Gonad Macroscopic Images  [McBride 2022 - Wolffish ](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/)
+
+* Full publication: https://doi.org/10.1002/mcf2.10222
+
+```{r, eval=TRUE, echo=FALSE, out.width="100%"}
+knitr::include_graphics("wolffish.png")
+```
 
 
+---
 ## Openscience Products: MARVLS Website
 
 * [Simple website template](https://github.com/nmfs-opensci/NOAA-distill-website)        
