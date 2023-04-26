@@ -116,6 +116,8 @@ knitr::include_graphics("githubstart.png")
    
 ---
 ## Tools & Resources Available 
+* [RVerse Tutorials](https://rverse-tutorials.github.io/)       
+-Eli Homes' website and repo for everything R and github (and more)
 
 * [Openscapes](https://www.openscapes.org/)       
 -[Cohorts - science centers and group shared learning](https://drive.google.com/drive/folders/10MykRskNoP4E0YCwup8rzIeZVm2gA3fO)               
@@ -123,7 +125,6 @@ knitr::include_graphics("githubstart.png")
 
 * [NMFS R user group](https://nmfs-opensci.github.io/NMFS-R-UG/)        
 -For information on upcoming meetings and resources
--Eli Homes and many more
 
 * [NMFS Openscience Repo](https://github.com/orgs/nmfs-opensci/repositories)        
 -Github guide       
