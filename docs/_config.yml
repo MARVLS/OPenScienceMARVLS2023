@@ -1,1 +1,13 @@
 theme: jekyll-theme-minimal
+
+favicon: favicon.ico
+output_dir: "docs"
+base_url: https://marvls.github.io/OPenScienceMARVLS2023/
+navbar:
+  logo: 
+    image: images/MARVLS_logo.png
+  search: false
+  right:
+    - text: "Openscience MARVLS"
+      href: MARVLS_presentation.html
+    
