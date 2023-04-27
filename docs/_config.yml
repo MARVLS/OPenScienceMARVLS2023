@@ -9,5 +9,5 @@ navbar:
   search: false
   right:
     - text: "Openscience MARVLS"
-      href: MARVLS_presentation.html
+      href: index.html
     
