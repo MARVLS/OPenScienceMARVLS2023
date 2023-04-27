@@ -1,5 +1,6 @@
 # OPenScienceMARVLS2023
-NOAA template Xaringan presentation example with open science examples and links.
+NOAA template Xaringan presentation example with open science examples and links. Presentation:
+https://marvls.github.io/OPenScienceMARVLS2023/docs/MARVLS_presentation 
 
 ## Version Control Platform
 - Git
