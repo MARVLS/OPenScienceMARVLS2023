@@ -154,7 +154,7 @@ knitr::include_graphics("temp.png")
 
 
 ---
-## Openscience Products: Supplimentary Files for Publications
+## Openscience Products: Supplementary Files for Publications
 
 * Analysis [Schemmel & Dahl 2023](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/Variola_louti_Schemmel_2023)
 
@@ -164,7 +164,7 @@ knitr::include_graphics("Variola.png")
 
 
 ---
-## Openscience Products: Supplimentary Files for Publications
+## Openscience Products: Supplementary Files for Publications
 
 * Gonad Macroscopic Images  [McBride 2022 - Wolffish ](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/)
 
