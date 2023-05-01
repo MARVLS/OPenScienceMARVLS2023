@@ -158,8 +158,10 @@ knitr::include_graphics("temp.png")
 
 * Analysis [Schemmel & Dahl 2023](https://github.com/MARVLS/Fish-Gonad-Staging/tree/main/analyses/Variola_louti_Schemmel_2023)
 
-```{r, eval=TRUE, echo=FALSE, out.width=550, out.height=400}
-knitr::include_graphics("Variola.png")
+* Full publication: https://doi.org/10.1007/s10641-023-01411-3
+
+```{r, eval=TRUE, echo=FALSE, out.width="60%"}
+knitr::include_graphics("valo_pub.png")
 ```
 
 
