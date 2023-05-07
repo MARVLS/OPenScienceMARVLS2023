@@ -202,10 +202,10 @@ knitr::include_graphics("wolffish.png")
 
 ## MARVLS Websites & Github Organization
 
-* [MARVLS Website]()
+* [MARVLS Website](https://marvls.github.io/MARVLS/)
 Organize quarterly workshops and share MARVLS content
 
-* [MARVLS Learning Center]()
+* [MARVLS Learning Center](https://marvls.github.io/Fish-Gonad-Staging/)
 Share code and analysis, recent MARVLS papers, fish developmental sequences, histology interpretation, stains, etc
 
 * NOAA policy approved - policies enforced differently at each science center
