@@ -310,6 +310,7 @@ MARVLS repository membership!
 * How do we (MARVLS) share and work together currently?
 
 * How can we improve sharing and learning as a group?
+  - MARVLS collaboration repository? Outside of NOAA so that external members can collaborate..
 
 * What are your barriers and is there something as a group we can do?
 
